@@ -8,12 +8,11 @@ function Description() {
         Om Meg
       </Typography>
       <Typography>
-        Hei! Dette bildet er av en sjarmerende blomst hentet fra Unsplash.
-        Unsplash tilbyr et bredt utvalg av gratis bilder av høy kvalitet som kan
-        brukes til forskjellige formål. Så hvis du leter etter inspirerende
-        bilder for ditt neste prosjekt, anbefales det å sjekke ut Unsplash. For
-        øvrig, denne teksten ble generert med hjelp av ChatGPT fra OpenAI.
-        Fascinerende, ikke sant?
+      Hei! Jeg er en robotikk ingeniør som har jobbet med C++ i mange år. 
+      Jeg har erfaring med å utvikle programvare for roboter og andre automatiserte systemer. 
+      Jeg har også jobbet med å designe og bygge roboter fra bunnen av.
+      Å jobbe med robotikk er en lidenskap for meg, og jeg elsker å se hvordan teknologien vår kan hjelpe oss i hverdagen. 
+      Hvis du vil vite mer om meg eller arbeidet mitt, kan du gjerne kontakte meg.
       </Typography>
     </Box>
   );

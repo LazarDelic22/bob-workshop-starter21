@@ -19,6 +19,15 @@ function ContactForm() {
   const [snackbarType, setSnackbarType] = useState("success");
   const [loading, setLoading] = useState(false);
 
+  const [theme, setTheme] = useState('light');
+  const toggleTheme = () => {
+    if (theme === 'light') {
+      setTheme('dark');
+    } else {
+      setTheme('light');
+    }
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (loading) {
@@ -57,7 +66,11 @@ function ContactForm() {
       setLoading(false);
     }
   };
-
+  <div className={`App ${theme}`}>
+      <h1>Hello, world!</h1>
+      <button onClick={toggleTheme}>Toggle Dark Mode</button>
+    </div>
+  
   return (
     <Box py={5} bgcolor="#ffffff" borderRadius={3} boxShadow={3} mt={4} px={3}>
       <Typography variant="h6" gutterBottom color="#3f51b5">
