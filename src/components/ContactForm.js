@@ -27,7 +27,8 @@ function ContactForm() {
       setTheme('light');
     }
   };
-
+  
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (loading) {
@@ -43,7 +44,7 @@ function ContactForm() {
         },
         body: JSON.stringify({
           ...formData,
-          access_key: "HER-MÅ-DU-LEGGE-INN-DIN-ACCESS-KEY", // Get your access key from https://web3forms.com/
+          access_key: "016da70f-18f4-4a44-a7b9-fbb5de38818d", // Get your access key from https://web3forms.com/
         }),
       });
 
@@ -66,11 +67,6 @@ function ContactForm() {
       setLoading(false);
     }
   };
-  <div className={`App ${theme}`}>
-      <h1>Hello, world!</h1>
-      <button onClick={toggleTheme}>Toggle Dark Mode</button>
-    </div>
-  
   return (
     <Box py={5} bgcolor="#ffffff" borderRadius={3} boxShadow={3} mt={4} px={3}>
       <Typography variant="h6" gutterBottom color="#3f51b5">
